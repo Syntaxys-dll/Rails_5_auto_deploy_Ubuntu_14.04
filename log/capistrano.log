@@ -843,3 +843,80 @@
   INFO [1657c361] Finished in 0.107 seconds with exit status 0 (successful).
   INFO [deploy:migrate] Run `rake db:migrate`
   INFO [e91acec5] Running RBENV_ROOT=$HOME/.rbenv RBENV_VERSION=2.3.1 $HOME/.rbenv/bin/rbenv exec bundle exec rake db:migrate as deploy@198.211.118.138
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-25 17:44:37 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [9cb163d3] Running /usr/bin/env mkdir -p /tmp/test/ as deploy@198.211.118.138
+  INFO [9cb163d3] Finished in 5.169 seconds with exit status 0 (successful).
+  INFO Uploading /tmp/test/git-ssh.sh 100.0%
+  INFO [180065ca] Running /usr/bin/env chmod +rx /tmp/test/git-ssh.sh as deploy@198.211.118.138
+  INFO [180065ca] Finished in 0.108 seconds with exit status 0 (successful).
+  INFO [88178c02] Running /usr/bin/env git ls-remote --heads https://github.com/Syntaxys-dll/Rails-5-auto-deploy-boilerplate.git as deploy@198.211.118.138
+  INFO [88178c02] Finished in 0.916 seconds with exit status 0 (successful).
+  INFO [91d99917] Running /usr/bin/env mkdir -p /home/deploy/applications/test/shared /home/deploy/applications/test/releases as deploy@198.211.118.138
+  INFO [91d99917] Finished in 0.108 seconds with exit status 0 (successful).
+  INFO [abb8367a] Running /usr/bin/env mkdir -p /home/deploy/applications/test/shared/bin /home/deploy/applications/test/shared/log /home/deploy/applications/test/shared/tmp/pids /home/deploy/applications/test/shared/tmp/cache /home/deploy/applications/test/shared/tmp/sockets /home/deploy/applications/test/shared/vendor/bundle /home/deploy/applications/test/shared/public/uploads /home/deploy/applications/test/shared/public/assets as deploy@198.211.118.138
+  INFO [abb8367a] Finished in 0.112 seconds with exit status 0 (successful).
+  INFO [29061d33] Running /usr/bin/env mkdir -p /home/deploy/applications/test/shared/config as deploy@198.211.118.138
+  INFO [29061d33] Finished in 0.112 seconds with exit status 0 (successful).
+  WARN puma.rb NOT FOUND!
+  INFO Uploading /home/deploy/applications/test/shared/puma.rb 100.0%
+  INFO puma.rb generated
+  INFO [034eeb5a] Running /usr/bin/env git clone --mirror https://github.com/Syntaxys-dll/Rails-5-auto-deploy-boilerplate.git /home/deploy/applications/test/repo as deploy@198.211.118.138
+  INFO [034eeb5a] Finished in 1.647 seconds with exit status 0 (successful).
+  INFO [cbe30f5b] Running /usr/bin/env git remote update --prune as deploy@198.211.118.138
+  INFO [cbe30f5b] Finished in 0.816 seconds with exit status 0 (successful).
+  INFO [c3264cc5] Running /usr/bin/env mkdir -p /home/deploy/applications/test/releases/20160725144451 as deploy@198.211.118.138
+  INFO [c3264cc5] Finished in 0.109 seconds with exit status 0 (successful).
+  INFO [1a71fad0] Running /usr/bin/env git archive master | tar -x -f - -C /home/deploy/applications/test/releases/20160725144451 as deploy@198.211.118.138
+  INFO [1a71fad0] Finished in 0.135 seconds with exit status 0 (successful).
+  INFO [0f0e67da] Running /usr/bin/env echo "d121b4c6abdb5304491e1cc5e9e5679b0bc70c34" >> REVISION as deploy@198.211.118.138
+  INFO [0f0e67da] Finished in 0.108 seconds with exit status 0 (successful).
+  INFO [42c35d1f] Running /usr/bin/env mkdir -p /home/deploy/applications/test/releases/20160725144451/config as deploy@198.211.118.138
+  INFO [42c35d1f] Finished in 0.108 seconds with exit status 0 (successful).
+  INFO [898d0a2a] Running /usr/bin/env rm /home/deploy/applications/test/releases/20160725144451/config/database.yml as deploy@198.211.118.138
+  INFO [898d0a2a] Finished in 0.108 seconds with exit status 0 (successful).
+  INFO [fac71167] Running /usr/bin/env ln -s /home/deploy/applications/test/shared/config/database.yml /home/deploy/applications/test/releases/20160725144451/config/database.yml as deploy@198.211.118.138
+  INFO [fac71167] Finished in 0.106 seconds with exit status 0 (successful).
+  INFO [d16333c9] Running /usr/bin/env mkdir -p /home/deploy/applications/test/releases/20160725144451 /home/deploy/applications/test/releases/20160725144451/tmp /home/deploy/applications/test/releases/20160725144451/vendor /home/deploy/applications/test/releases/20160725144451/public as deploy@198.211.118.138
+  INFO [d16333c9] Finished in 0.114 seconds with exit status 0 (successful).
+  INFO [5a4a5055] Running /usr/bin/env rm -rf /home/deploy/applications/test/releases/20160725144451/bin as deploy@198.211.118.138
+  INFO [5a4a5055] Finished in 0.108 seconds with exit status 0 (successful).
+  INFO [c9fe3cc6] Running /usr/bin/env ln -s /home/deploy/applications/test/shared/bin /home/deploy/applications/test/releases/20160725144451/bin as deploy@198.211.118.138
+  INFO [c9fe3cc6] Finished in 0.104 seconds with exit status 0 (successful).
+  INFO [438effcd] Running /usr/bin/env rm -rf /home/deploy/applications/test/releases/20160725144451/log as deploy@198.211.118.138
+  INFO [438effcd] Finished in 0.103 seconds with exit status 0 (successful).
+  INFO [899404c8] Running /usr/bin/env ln -s /home/deploy/applications/test/shared/log /home/deploy/applications/test/releases/20160725144451/log as deploy@198.211.118.138
+  INFO [899404c8] Finished in 0.129 seconds with exit status 0 (successful).
+  INFO [f6e2b368] Running /usr/bin/env ln -s /home/deploy/applications/test/shared/tmp/pids /home/deploy/applications/test/releases/20160725144451/tmp/pids as deploy@198.211.118.138
+  INFO [f6e2b368] Finished in 0.103 seconds with exit status 0 (successful).
+  INFO [cc4d3338] Running /usr/bin/env ln -s /home/deploy/applications/test/shared/tmp/cache /home/deploy/applications/test/releases/20160725144451/tmp/cache as deploy@198.211.118.138
+  INFO [cc4d3338] Finished in 0.104 seconds with exit status 0 (successful).
+  INFO [7782ff84] Running /usr/bin/env ln -s /home/deploy/applications/test/shared/tmp/sockets /home/deploy/applications/test/releases/20160725144451/tmp/sockets as deploy@198.211.118.138
+  INFO [7782ff84] Finished in 0.102 seconds with exit status 0 (successful).
+  INFO [ef503579] Running /usr/bin/env ln -s /home/deploy/applications/test/shared/vendor/bundle /home/deploy/applications/test/releases/20160725144451/vendor/bundle as deploy@198.211.118.138
+  INFO [ef503579] Finished in 0.102 seconds with exit status 0 (successful).
+  INFO [60b2f32d] Running /usr/bin/env ln -s /home/deploy/applications/test/shared/public/uploads /home/deploy/applications/test/releases/20160725144451/public/uploads as deploy@198.211.118.138
+  INFO [60b2f32d] Finished in 0.109 seconds with exit status 0 (successful).
+  INFO [4db5f453] Running /usr/bin/env ln -s /home/deploy/applications/test/shared/public/assets /home/deploy/applications/test/releases/20160725144451/public/assets as deploy@198.211.118.138
+  INFO [4db5f453] Finished in 0.107 seconds with exit status 0 (successful).
+  INFO [41999220] Running RBENV_ROOT=$HOME/.rbenv RBENV_VERSION=2.3.1 $HOME/.rbenv/bin/rbenv exec bundle install --path /home/deploy/applications/test/shared/bundle --without development test --deployment --quiet as deploy@198.211.118.138
+  INFO [41999220] Finished in 175.112 seconds with exit status 0 (successful).
+  INFO [c9a5da21] Running RBENV_ROOT=$HOME/.rbenv RBENV_VERSION=2.3.1 $HOME/.rbenv/bin/rbenv exec bundle exec rake assets:precompile as deploy@198.211.118.138
+  INFO [c9a5da21] Finished in 8.490 seconds with exit status 0 (successful).
+  INFO [79fab1fc] Running /usr/bin/env mkdir -p /home/deploy/applications/test/releases/20160725144451/assets_manifest_backup as deploy@198.211.118.138
+  INFO [79fab1fc] Finished in 0.109 seconds with exit status 0 (successful).
+  INFO [ac11884e] Running /usr/bin/env cp /home/deploy/applications/test/releases/20160725144451/public/assets/.sprockets-manifest-3bc06c50c853964193cfd1e6af741a4d.json /home/deploy/applications/test/releases/20160725144451/assets_manifest_backup as deploy@198.211.118.138
+  INFO [ac11884e] Finished in 0.115 seconds with exit status 0 (successful).
+  INFO [deploy:migrate] Run `rake db:migrate`
+  INFO [1b5a1646] Running RBENV_ROOT=$HOME/.rbenv RBENV_VERSION=2.3.1 $HOME/.rbenv/bin/rbenv exec bundle exec rake db:migrate as deploy@198.211.118.138
+  INFO [1b5a1646] Finished in 3.081 seconds with exit status 0 (successful).
+  INFO [16e1d6bd] Running /usr/bin/env ln -s /home/deploy/applications/test/releases/20160725144451 /home/deploy/applications/test/releases/current as deploy@198.211.118.138
+  INFO [16e1d6bd] Finished in 0.105 seconds with exit status 0 (successful).
+  INFO [0c1fdda9] Running /usr/bin/env mv /home/deploy/applications/test/releases/current /home/deploy/applications/test as deploy@198.211.118.138
+  INFO [0c1fdda9] Finished in 0.105 seconds with exit status 0 (successful).
+  INFO [514ca9f8] Running /usr/bin/env echo "Branch master (at d121b4c6abdb5304491e1cc5e9e5679b0bc70c34) deployed as release 20160725144451 by syntaxys" >> /home/deploy/applications/test/revisions.log as deploy@198.211.118.138
+  INFO [514ca9f8] Finished in 0.104 seconds with exit status 0 (successful).
+  INFO using conf file /home/deploy/applications/test/shared/puma.rb
+  INFO [a4f7822f] Running RBENV_ROOT=$HOME/.rbenv RBENV_VERSION=2.3.1 $HOME/.rbenv/bin/rbenv exec bundle exec puma -C /home/deploy/applications/test/shared/puma.rb --daemon as deploy@198.211.118.138
+  INFO [a4f7822f] Finished in 1.159 seconds with exit status 0 (successful).
