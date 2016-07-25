@@ -920,3 +920,17 @@
   INFO using conf file /home/deploy/applications/test/shared/puma.rb
   INFO [a4f7822f] Running RBENV_ROOT=$HOME/.rbenv RBENV_VERSION=2.3.1 $HOME/.rbenv/bin/rbenv exec bundle exec puma -C /home/deploy/applications/test/shared/puma.rb --daemon as deploy@198.211.118.138
   INFO [a4f7822f] Finished in 1.159 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-25 17:55:26 +0300 cap production rails:console
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-25 17:59:44 +0300 cap production puma:stop
+  INFO ---------------------------------------------------------------------------
+  INFO [dd1500e1] Running RBENV_ROOT=$HOME/.rbenv RBENV_VERSION=2.3.1 $HOME/.rbenv/bin/rbenv exec bundle exec pumactl -S /home/deploy/applications/test/shared/tmp/pids/puma.state stop as deploy@198.211.118.138
+  INFO [dd1500e1] Finished in 0.855 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-25 17:59:59 +0300 cap production puma:start
+  INFO ---------------------------------------------------------------------------
+  INFO using conf file /home/deploy/applications/test/shared/puma.rb
+  INFO [d176ffc8] Running RBENV_ROOT=$HOME/.rbenv RBENV_VERSION=2.3.1 $HOME/.rbenv/bin/rbenv exec bundle exec puma -C /home/deploy/applications/test/shared/puma.rb --daemon as deploy@198.211.118.138
+  INFO [d176ffc8] Finished in 0.724 seconds with exit status 0 (successful).
