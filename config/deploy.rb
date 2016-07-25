@@ -5,10 +5,10 @@
 
 lock '3.5.0'
 
-set :application, 'Rails-5-auto-deploy-boilerplate'
+set :application, 'test'
 set :repo_url, 'https://github.com/Syntaxys-dll/Rails-5-auto-deploy-boilerplate.git'
 set :branch, 'master'
-set :deploy_to, '/home/deploy/applications/Rails-5-auto-deploy-boilerplate'
+set :deploy_to, '/home/deploy/applications/test'
 
 set :log_level, :info
 set :linked_files, %w{config/database.yml}
