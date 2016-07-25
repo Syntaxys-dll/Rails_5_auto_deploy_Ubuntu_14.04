@@ -1097,3 +1097,25 @@
   INFO ---------------------------------------------------------------------------
   INFO START 2016-07-25 18:12:52 +0300 cap production rails:console
   INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-25 18:15:46 +0300 cap production puma:stop
+  INFO ---------------------------------------------------------------------------
+  INFO [93c1399a] Running RBENV_ROOT=$HOME/.rbenv RBENV_VERSION=2.3.1 $HOME/.rbenv/bin/rbenv exec bundle exec pumactl -S /home/deploy/applications/test/shared/tmp/pids/puma.state stop as deploy@198.211.118.138
+  INFO [93c1399a] Finished in 0.773 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-25 18:16:06 +0300 cap production puma:start
+  INFO ---------------------------------------------------------------------------
+  INFO using conf file /home/deploy/applications/test/shared/puma.rb
+  INFO [3f97dd84] Running RBENV_ROOT=$HOME/.rbenv RBENV_VERSION=2.3.1 $HOME/.rbenv/bin/rbenv exec bundle exec puma -C /home/deploy/applications/test/shared/puma.rb --daemon as deploy@198.211.118.138
+  INFO [3f97dd84] Finished in 0.992 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-25 18:17:35 +0300 cap production puma:stop
+  INFO ---------------------------------------------------------------------------
+  INFO [94861da1] Running RBENV_ROOT=$HOME/.rbenv RBENV_VERSION=2.3.1 $HOME/.rbenv/bin/rbenv exec bundle exec pumactl -S /home/deploy/applications/test/shared/tmp/pids/puma.state stop as deploy@198.211.118.138
+  INFO [94861da1] Finished in 0.957 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-25 18:17:47 +0300 cap production puma:start
+  INFO ---------------------------------------------------------------------------
+  INFO using conf file /home/deploy/applications/test/shared/puma.rb
+  INFO [733bf710] Running RBENV_ROOT=$HOME/.rbenv RBENV_VERSION=2.3.1 $HOME/.rbenv/bin/rbenv exec bundle exec puma -C /home/deploy/applications/test/shared/puma.rb --daemon as deploy@198.211.118.138
+  INFO [733bf710] Finished in 1.188 seconds with exit status 0 (successful).
