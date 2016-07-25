@@ -1,0 +1,148 @@
+# Logfile created on 2016-07-25 16:15:30 +0300 by logger.rb/54362
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-25 16:15:30 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [4f30ca08] Running /usr/bin/env mkdir -p /tmp/Rails-5-auto-deploy-boilerplate/ as deploy@198.211.118.138
+  INFO [4f30ca08] Finished in 4.008 seconds with exit status 0 (successful).
+  INFO Uploading /tmp/Rails-5-auto-deploy-boilerplate/git-ssh.sh 100.0%
+  INFO [f79ff5dd] Running /usr/bin/env chmod +rx /tmp/Rails-5-auto-deploy-boilerplate/git-ssh.sh as deploy@198.211.118.138
+  INFO [f79ff5dd] Finished in 0.105 seconds with exit status 0 (successful).
+  INFO [ed15bccd] Running /usr/bin/env git ls-remote --heads git@github.com:Syntaxys-dll/Rails-5-auto-deploy-boilerplate.git as deploy@198.211.118.138
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-25 16:16:43 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [65a52890] Running /usr/bin/env mkdir -p /tmp/Rails-5-auto-deploy-boilerplate/ as deploy@198.211.118.138
+  INFO [65a52890] Finished in 3.576 seconds with exit status 0 (successful).
+  INFO Uploading /tmp/Rails-5-auto-deploy-boilerplate/git-ssh.sh 100.0%
+  INFO [eb7e6663] Running /usr/bin/env chmod +rx /tmp/Rails-5-auto-deploy-boilerplate/git-ssh.sh as deploy@198.211.118.138
+  INFO [eb7e6663] Finished in 0.098 seconds with exit status 0 (successful).
+  INFO [e99def86] Running /usr/bin/env git ls-remote --heads https://github.com/Syntaxys-dll/Rails-5-auto-deploy-boilerplate.git as deploy@198.211.118.138
+  INFO [e99def86] Finished in 0.879 seconds with exit status 0 (successful).
+  INFO [0c341bed] Running /usr/bin/env mkdir -p /home/deploy/applications/Rails-5-auto-deploy-boilerplate/shared /home/deploy/applications/Rails-5-auto-deploy-boilerplate/releases as deploy@198.211.118.138
+  INFO [0c341bed] Finished in 0.106 seconds with exit status 0 (successful).
+  INFO [0d691ceb] Running /usr/bin/env mkdir -p /home/deploy/applications/Rails-5-auto-deploy-boilerplate/shared/bin /home/deploy/applications/Rails-5-auto-deploy-boilerplate/shared/log /home/deploy/applications/Rails-5-auto-deploy-boilerplate/shared/tmp/pids /home/deploy/applications/Rails-5-auto-deploy-boilerplate/shared/tmp/cache /home/deploy/applications/Rails-5-auto-deploy-boilerplate/shared/tmp/sockets /home/deploy/applications/Rails-5-auto-deploy-boilerplate/shared/vendor/bundle /home/deploy/applications/Rails-5-auto-deploy-boilerplate/shared/public/uploads /home/deploy/applications/Rails-5-auto-deploy-boilerplate/shared/public/assets as deploy@198.211.118.138
+  INFO [0d691ceb] Finished in 0.102 seconds with exit status 0 (successful).
+  INFO [5834899e] Running /usr/bin/env mkdir -p /home/deploy/applications/Rails-5-auto-deploy-boilerplate/shared/config as deploy@198.211.118.138
+  INFO [5834899e] Finished in 0.103 seconds with exit status 0 (successful).
+ ERROR linked file /home/deploy/applications/Rails-5-auto-deploy-boilerplate/shared/config/database.yml does not exist on 198.211.118.138
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-25 16:19:16 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [f957087c] Running /usr/bin/env mkdir -p /tmp/Rails-5-auto-deploy-boilerplate/ as deploy@198.211.118.138
+  INFO [f957087c] Finished in 3.650 seconds with exit status 0 (successful).
+  INFO Uploading /tmp/Rails-5-auto-deploy-boilerplate/git-ssh.sh 100.0%
+  INFO [f8c3e59d] Running /usr/bin/env chmod +rx /tmp/Rails-5-auto-deploy-boilerplate/git-ssh.sh as deploy@198.211.118.138
+  INFO [f8c3e59d] Finished in 0.108 seconds with exit status 0 (successful).
+  INFO [c999411e] Running /usr/bin/env git ls-remote --heads https://github.com/Syntaxys-dll/Rails-5-auto-deploy-boilerplate.git as deploy@198.211.118.138
+  INFO [c999411e] Finished in 0.898 seconds with exit status 0 (successful).
+  INFO [3eb0f6e2] Running /usr/bin/env mkdir -p /home/deploy/applications/Rails-5-auto-deploy-boilerplate/shared /home/deploy/applications/Rails-5-auto-deploy-boilerplate/releases as deploy@198.211.118.138
+  INFO [3eb0f6e2] Finished in 0.109 seconds with exit status 0 (successful).
+  INFO [b797f176] Running /usr/bin/env mkdir -p /home/deploy/applications/Rails-5-auto-deploy-boilerplate/shared/bin /home/deploy/applications/Rails-5-auto-deploy-boilerplate/shared/log /home/deploy/applications/Rails-5-auto-deploy-boilerplate/shared/tmp/pids /home/deploy/applications/Rails-5-auto-deploy-boilerplate/shared/tmp/cache /home/deploy/applications/Rails-5-auto-deploy-boilerplate/shared/tmp/sockets /home/deploy/applications/Rails-5-auto-deploy-boilerplate/shared/vendor/bundle /home/deploy/applications/Rails-5-auto-deploy-boilerplate/shared/public/uploads /home/deploy/applications/Rails-5-auto-deploy-boilerplate/shared/public/assets as deploy@198.211.118.138
+  INFO [b797f176] Finished in 0.106 seconds with exit status 0 (successful).
+  INFO [1386be21] Running /usr/bin/env mkdir -p /home/deploy/applications/Rails-5-auto-deploy-boilerplate/shared/config as deploy@198.211.118.138
+  INFO [1386be21] Finished in 0.105 seconds with exit status 0 (successful).
+  WARN puma.rb NOT FOUND!
+  INFO Uploading /home/deploy/applications/Rails-5-auto-deploy-boilerplate/shared/puma.rb 100.0%
+  INFO puma.rb generated
+  INFO [b64e2f6f] Running /usr/bin/env git clone --mirror https://github.com/Syntaxys-dll/Rails-5-auto-deploy-boilerplate.git /home/deploy/applications/Rails-5-auto-deploy-boilerplate/repo as deploy@198.211.118.138
+  INFO [b64e2f6f] Finished in 1.584 seconds with exit status 0 (successful).
+  INFO [3bf69979] Running /usr/bin/env git remote update --prune as deploy@198.211.118.138
+  INFO [3bf69979] Finished in 0.876 seconds with exit status 0 (successful).
+  INFO [09a40fd1] Running /usr/bin/env mkdir -p /home/deploy/applications/Rails-5-auto-deploy-boilerplate/releases/20160725131927 as deploy@198.211.118.138
+  INFO [09a40fd1] Finished in 0.104 seconds with exit status 0 (successful).
+  INFO [1b18f602] Running /usr/bin/env git archive master | tar -x -f - -C /home/deploy/applications/Rails-5-auto-deploy-boilerplate/releases/20160725131927 as deploy@198.211.118.138
+  INFO [1b18f602] Finished in 0.130 seconds with exit status 0 (successful).
+  INFO [d650df77] Running /usr/bin/env echo "bcd61664faf2129d428befb5dbf5d528cc4cb736" >> REVISION as deploy@198.211.118.138
+  INFO [d650df77] Finished in 0.108 seconds with exit status 0 (successful).
+  INFO [1f748a87] Running /usr/bin/env mkdir -p /home/deploy/applications/Rails-5-auto-deploy-boilerplate/releases/20160725131927/config as deploy@198.211.118.138
+  INFO [1f748a87] Finished in 0.108 seconds with exit status 0 (successful).
+  INFO [0ed7e39c] Running /usr/bin/env rm /home/deploy/applications/Rails-5-auto-deploy-boilerplate/releases/20160725131927/config/database.yml as deploy@198.211.118.138
+  INFO [0ed7e39c] Finished in 0.107 seconds with exit status 0 (successful).
+  INFO [5281a80c] Running /usr/bin/env ln -s /home/deploy/applications/Rails-5-auto-deploy-boilerplate/shared/config/database.yml /home/deploy/applications/Rails-5-auto-deploy-boilerplate/releases/20160725131927/config/database.yml as deploy@198.211.118.138
+  INFO [5281a80c] Finished in 0.111 seconds with exit status 0 (successful).
+  INFO [7b26a729] Running /usr/bin/env mkdir -p /home/deploy/applications/Rails-5-auto-deploy-boilerplate/releases/20160725131927 /home/deploy/applications/Rails-5-auto-deploy-boilerplate/releases/20160725131927/tmp /home/deploy/applications/Rails-5-auto-deploy-boilerplate/releases/20160725131927/vendor /home/deploy/applications/Rails-5-auto-deploy-boilerplate/releases/20160725131927/public as deploy@198.211.118.138
+  INFO [7b26a729] Finished in 0.107 seconds with exit status 0 (successful).
+  INFO [40454fba] Running /usr/bin/env rm -rf /home/deploy/applications/Rails-5-auto-deploy-boilerplate/releases/20160725131927/bin as deploy@198.211.118.138
+  INFO [40454fba] Finished in 0.110 seconds with exit status 0 (successful).
+  INFO [3ca8629d] Running /usr/bin/env ln -s /home/deploy/applications/Rails-5-auto-deploy-boilerplate/shared/bin /home/deploy/applications/Rails-5-auto-deploy-boilerplate/releases/20160725131927/bin as deploy@198.211.118.138
+  INFO [3ca8629d] Finished in 0.108 seconds with exit status 0 (successful).
+  INFO [df2b1dd2] Running /usr/bin/env rm -rf /home/deploy/applications/Rails-5-auto-deploy-boilerplate/releases/20160725131927/log as deploy@198.211.118.138
+  INFO [df2b1dd2] Finished in 0.103 seconds with exit status 0 (successful).
+  INFO [5eb463b0] Running /usr/bin/env ln -s /home/deploy/applications/Rails-5-auto-deploy-boilerplate/shared/log /home/deploy/applications/Rails-5-auto-deploy-boilerplate/releases/20160725131927/log as deploy@198.211.118.138
+  INFO [5eb463b0] Finished in 0.104 seconds with exit status 0 (successful).
+  INFO [35a523e3] Running /usr/bin/env ln -s /home/deploy/applications/Rails-5-auto-deploy-boilerplate/shared/tmp/pids /home/deploy/applications/Rails-5-auto-deploy-boilerplate/releases/20160725131927/tmp/pids as deploy@198.211.118.138
+  INFO [35a523e3] Finished in 0.107 seconds with exit status 0 (successful).
+  INFO [7b3ba26f] Running /usr/bin/env ln -s /home/deploy/applications/Rails-5-auto-deploy-boilerplate/shared/tmp/cache /home/deploy/applications/Rails-5-auto-deploy-boilerplate/releases/20160725131927/tmp/cache as deploy@198.211.118.138
+  INFO [7b3ba26f] Finished in 0.104 seconds with exit status 0 (successful).
+  INFO [d7aff255] Running /usr/bin/env ln -s /home/deploy/applications/Rails-5-auto-deploy-boilerplate/shared/tmp/sockets /home/deploy/applications/Rails-5-auto-deploy-boilerplate/releases/20160725131927/tmp/sockets as deploy@198.211.118.138
+  INFO [d7aff255] Finished in 0.109 seconds with exit status 0 (successful).
+  INFO [c3fb682d] Running /usr/bin/env ln -s /home/deploy/applications/Rails-5-auto-deploy-boilerplate/shared/vendor/bundle /home/deploy/applications/Rails-5-auto-deploy-boilerplate/releases/20160725131927/vendor/bundle as deploy@198.211.118.138
+  INFO [c3fb682d] Finished in 0.103 seconds with exit status 0 (successful).
+  INFO [a30a2b71] Running /usr/bin/env ln -s /home/deploy/applications/Rails-5-auto-deploy-boilerplate/shared/public/uploads /home/deploy/applications/Rails-5-auto-deploy-boilerplate/releases/20160725131927/public/uploads as deploy@198.211.118.138
+  INFO [a30a2b71] Finished in 0.103 seconds with exit status 0 (successful).
+  INFO [da2987d7] Running /usr/bin/env ln -s /home/deploy/applications/Rails-5-auto-deploy-boilerplate/shared/public/assets /home/deploy/applications/Rails-5-auto-deploy-boilerplate/releases/20160725131927/public/assets as deploy@198.211.118.138
+  INFO [da2987d7] Finished in 0.103 seconds with exit status 0 (successful).
+  INFO [361d8497] Running RBENV_ROOT=$HOME/.rbenv RBENV_VERSION=2.3.1 $HOME/.rbenv/bin/rbenv exec bundle install --path /home/deploy/applications/Rails-5-auto-deploy-boilerplate/shared/bundle --without development test --deployment --quiet as deploy@198.211.118.138
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-25 16:24:11 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [41ef9a25] Running /usr/bin/env mkdir -p /tmp/Rails-5-auto-deploy-boilerplate/ as deploy@198.211.118.138
+  INFO [41ef9a25] Finished in 7.754 seconds with exit status 0 (successful).
+  INFO Uploading /tmp/Rails-5-auto-deploy-boilerplate/git-ssh.sh 100.0%
+  INFO [35837248] Running /usr/bin/env chmod +rx /tmp/Rails-5-auto-deploy-boilerplate/git-ssh.sh as deploy@198.211.118.138
+  INFO [35837248] Finished in 0.111 seconds with exit status 0 (successful).
+  INFO [3770d974] Running /usr/bin/env git ls-remote --heads https://github.com/Syntaxys-dll/Rails-5-auto-deploy-boilerplate.git as deploy@198.211.118.138
+  INFO [3770d974] Finished in 0.807 seconds with exit status 0 (successful).
+  INFO [1ce013f3] Running /usr/bin/env mkdir -p /home/deploy/applications/Rails-5-auto-deploy-boilerplate/shared /home/deploy/applications/Rails-5-auto-deploy-boilerplate/releases as deploy@198.211.118.138
+  INFO [1ce013f3] Finished in 0.111 seconds with exit status 0 (successful).
+  INFO [bd545a8d] Running /usr/bin/env mkdir -p /home/deploy/applications/Rails-5-auto-deploy-boilerplate/shared/bin /home/deploy/applications/Rails-5-auto-deploy-boilerplate/shared/log /home/deploy/applications/Rails-5-auto-deploy-boilerplate/shared/tmp/pids /home/deploy/applications/Rails-5-auto-deploy-boilerplate/shared/tmp/cache /home/deploy/applications/Rails-5-auto-deploy-boilerplate/shared/tmp/sockets /home/deploy/applications/Rails-5-auto-deploy-boilerplate/shared/vendor/bundle /home/deploy/applications/Rails-5-auto-deploy-boilerplate/shared/public/uploads /home/deploy/applications/Rails-5-auto-deploy-boilerplate/shared/public/assets as deploy@198.211.118.138
+  INFO [bd545a8d] Finished in 0.116 seconds with exit status 0 (successful).
+  INFO [88b5a9da] Running /usr/bin/env mkdir -p /home/deploy/applications/Rails-5-auto-deploy-boilerplate/shared/config as deploy@198.211.118.138
+  INFO [88b5a9da] Finished in 0.111 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/deploy/applications/Rails-5-auto-deploy-boilerplate/repo
+  INFO [b2fadf9d] Running /usr/bin/env git remote update --prune as deploy@198.211.118.138
+  INFO [b2fadf9d] Finished in 0.798 seconds with exit status 0 (successful).
+  INFO [e39e0737] Running /usr/bin/env mkdir -p /home/deploy/applications/Rails-5-auto-deploy-boilerplate/releases/20160725132426 as deploy@198.211.118.138
+  INFO [e39e0737] Finished in 0.113 seconds with exit status 0 (successful).
+  INFO [c5683b66] Running /usr/bin/env git archive master | tar -x -f - -C /home/deploy/applications/Rails-5-auto-deploy-boilerplate/releases/20160725132426 as deploy@198.211.118.138
+  INFO [c5683b66] Finished in 0.174 seconds with exit status 0 (successful).
+  INFO [895ad50b] Running /usr/bin/env echo "bcd61664faf2129d428befb5dbf5d528cc4cb736" >> REVISION as deploy@198.211.118.138
+  INFO [895ad50b] Finished in 0.113 seconds with exit status 0 (successful).
+  INFO [49f726f6] Running /usr/bin/env mkdir -p /home/deploy/applications/Rails-5-auto-deploy-boilerplate/releases/20160725132426/config as deploy@198.211.118.138
+  INFO [49f726f6] Finished in 0.124 seconds with exit status 0 (successful).
+  INFO [bac63d65] Running /usr/bin/env rm /home/deploy/applications/Rails-5-auto-deploy-boilerplate/releases/20160725132426/config/database.yml as deploy@198.211.118.138
+  INFO [bac63d65] Finished in 0.116 seconds with exit status 0 (successful).
+  INFO [018875c4] Running /usr/bin/env ln -s /home/deploy/applications/Rails-5-auto-deploy-boilerplate/shared/config/database.yml /home/deploy/applications/Rails-5-auto-deploy-boilerplate/releases/20160725132426/config/database.yml as deploy@198.211.118.138
+  INFO [018875c4] Finished in 0.120 seconds with exit status 0 (successful).
+  INFO [1488df9d] Running /usr/bin/env mkdir -p /home/deploy/applications/Rails-5-auto-deploy-boilerplate/releases/20160725132426 /home/deploy/applications/Rails-5-auto-deploy-boilerplate/releases/20160725132426/tmp /home/deploy/applications/Rails-5-auto-deploy-boilerplate/releases/20160725132426/vendor /home/deploy/applications/Rails-5-auto-deploy-boilerplate/releases/20160725132426/public as deploy@198.211.118.138
+  INFO [1488df9d] Finished in 0.121 seconds with exit status 0 (successful).
+  INFO [1588337a] Running /usr/bin/env rm -rf /home/deploy/applications/Rails-5-auto-deploy-boilerplate/releases/20160725132426/bin as deploy@198.211.118.138
+  INFO [1588337a] Finished in 0.110 seconds with exit status 0 (successful).
+  INFO [7b455629] Running /usr/bin/env ln -s /home/deploy/applications/Rails-5-auto-deploy-boilerplate/shared/bin /home/deploy/applications/Rails-5-auto-deploy-boilerplate/releases/20160725132426/bin as deploy@198.211.118.138
+  INFO [7b455629] Finished in 0.111 seconds with exit status 0 (successful).
+  INFO [70bb6608] Running /usr/bin/env rm -rf /home/deploy/applications/Rails-5-auto-deploy-boilerplate/releases/20160725132426/log as deploy@198.211.118.138
+  INFO [70bb6608] Finished in 0.114 seconds with exit status 0 (successful).
+  INFO [0add86ae] Running /usr/bin/env ln -s /home/deploy/applications/Rails-5-auto-deploy-boilerplate/shared/log /home/deploy/applications/Rails-5-auto-deploy-boilerplate/releases/20160725132426/log as deploy@198.211.118.138
+  INFO [0add86ae] Finished in 0.115 seconds with exit status 0 (successful).
+  INFO [3d4364aa] Running /usr/bin/env ln -s /home/deploy/applications/Rails-5-auto-deploy-boilerplate/shared/tmp/pids /home/deploy/applications/Rails-5-auto-deploy-boilerplate/releases/20160725132426/tmp/pids as deploy@198.211.118.138
+  INFO [3d4364aa] Finished in 0.114 seconds with exit status 0 (successful).
+  INFO [021b2e33] Running /usr/bin/env ln -s /home/deploy/applications/Rails-5-auto-deploy-boilerplate/shared/tmp/cache /home/deploy/applications/Rails-5-auto-deploy-boilerplate/releases/20160725132426/tmp/cache as deploy@198.211.118.138
+  INFO [021b2e33] Finished in 0.115 seconds with exit status 0 (successful).
+  INFO [f606553c] Running /usr/bin/env ln -s /home/deploy/applications/Rails-5-auto-deploy-boilerplate/shared/tmp/sockets /home/deploy/applications/Rails-5-auto-deploy-boilerplate/releases/20160725132426/tmp/sockets as deploy@198.211.118.138
+  INFO [f606553c] Finished in 0.114 seconds with exit status 0 (successful).
+  INFO [e3d48098] Running /usr/bin/env ln -s /home/deploy/applications/Rails-5-auto-deploy-boilerplate/shared/vendor/bundle /home/deploy/applications/Rails-5-auto-deploy-boilerplate/releases/20160725132426/vendor/bundle as deploy@198.211.118.138
+  INFO [e3d48098] Finished in 0.111 seconds with exit status 0 (successful).
+  INFO [f1ed062c] Running /usr/bin/env ln -s /home/deploy/applications/Rails-5-auto-deploy-boilerplate/shared/public/uploads /home/deploy/applications/Rails-5-auto-deploy-boilerplate/releases/20160725132426/public/uploads as deploy@198.211.118.138
+  INFO [f1ed062c] Finished in 0.110 seconds with exit status 0 (successful).
+  INFO [93fbe5af] Running /usr/bin/env ln -s /home/deploy/applications/Rails-5-auto-deploy-boilerplate/shared/public/assets /home/deploy/applications/Rails-5-auto-deploy-boilerplate/releases/20160725132426/public/assets as deploy@198.211.118.138
+  INFO [93fbe5af] Finished in 0.122 seconds with exit status 0 (successful).
+  INFO [bc3f7a8e] Running RBENV_ROOT=$HOME/.rbenv RBENV_VERSION=2.3.1 $HOME/.rbenv/bin/rbenv exec bundle install --path /home/deploy/applications/Rails-5-auto-deploy-boilerplate/shared/bundle --without development test --deployment --quiet as deploy@198.211.118.138
+  INFO [bc3f7a8e] Finished in 26.258 seconds with exit status 0 (successful).
+  INFO [36b4bfc4] Running RBENV_ROOT=$HOME/.rbenv RBENV_VERSION=2.3.1 $HOME/.rbenv/bin/rbenv exec bundle exec rake assets:precompile as deploy@198.211.118.138
+  INFO [36b4bfc4] Finished in 6.386 seconds with exit status 0 (successful).
+  INFO [6090939a] Running /usr/bin/env mkdir -p /home/deploy/applications/Rails-5-auto-deploy-boilerplate/releases/20160725132426/assets_manifest_backup as deploy@198.211.118.138
+  INFO [6090939a] Finished in 0.116 seconds with exit status 0 (successful).
+  INFO [7469c1f4] Running /usr/bin/env cp /home/deploy/applications/Rails-5-auto-deploy-boilerplate/releases/20160725132426/public/assets/.sprockets-manifest-27ec620668079cbf2f80c8b64781a60c.json /home/deploy/applications/Rails-5-auto-deploy-boilerplate/releases/20160725132426/assets_manifest_backup as deploy@198.211.118.138
+  INFO [7469c1f4] Finished in 0.119 seconds with exit status 0 (successful).
+  INFO [deploy:migrate] Run `rake db:migrate`
+  INFO [93f51f41] Running RBENV_ROOT=$HOME/.rbenv RBENV_VERSION=2.3.1 $HOME/.rbenv/bin/rbenv exec bundle exec rake db:migrate as deploy@198.211.118.138

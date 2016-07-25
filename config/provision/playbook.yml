@@ -34,6 +34,7 @@
         - 'libmagickwand-dev'
         - 'nodejs'
         - 'htop'
+        - 'libsqlite3-dev'
 
     ### Create an account with ssh keys ###
     - name: 'account | create'
