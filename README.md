@@ -27,3 +27,9 @@ set :repo_url, 'https://github.com/Syntaxys-dll/Rails-5-auto-deploy-boilerplate.
 set :deploy_to, '/home/deploy/applications/test'
 
 ```
+
+### Step 4
+
+Run:
+
+`cap production deploy`
