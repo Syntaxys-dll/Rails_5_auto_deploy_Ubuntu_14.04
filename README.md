@@ -27,8 +27,13 @@ set :repo_url, 'https://github.com/Syntaxys-dll/Rails-5-auto-deploy-boilerplate.
 set :deploy_to, '/home/deploy/applications/test'
 
 ```
-
 ### Step 4
+
+Run playbook install. Change ip to your server.
+
+`cd config/provision && ansible-playbook -i188.226.255.173, playbook.yml`
+
+### Step 5
 
 Run:
 
