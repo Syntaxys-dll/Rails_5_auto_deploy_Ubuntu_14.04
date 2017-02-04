@@ -1,5 +1,7 @@
 # Rails 5 deploy with ansible, capistrano, postgresql.
 
+Tested on Ubuntu 14.04 
+
 ### Step 1
 
 Setup SSH keys [(manual)](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2)
