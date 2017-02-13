@@ -1,5 +1,7 @@
 # Rails 5 deploy with ansible, capistrano, postgresql.
 
+**Update**: [version for Ubuntu 16.04](https://github.com/Syntaxys-dll/Rails-5-automating-deployments-Ubuntu-16.04-Capistrano)
+
 Tested on Ubuntu 14.04 
 
 ### Step 1
